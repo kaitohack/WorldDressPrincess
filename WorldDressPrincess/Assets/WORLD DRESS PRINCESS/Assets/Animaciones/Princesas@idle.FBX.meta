@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: a3a0492c115ffc046a458e053e4f3cba
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Hueso_abdomen
+    100004: Hueso_Antebrazo_derecho
+    100006: Hueso_antebrazo_izquierdo
+    100008: Hueso_brazo_derecho
+    100010: Hueso_brazo_izquierdo
+    100012: Hueso_cabeza
+    100014: Hueso_cintura
+    100016: Hueso_cuello
+    100018: Hueso_hombro_derecho
+    100020: Hueso_hombro_izquierdo
+    100022: Hueso_mano_derecha
+    100024: Hueso_mano_izquierda
+    100026: Hueso_muslo_derecho
+    100028: Hueso_muslo_izquierdo
+    100030: Hueso_pecho
+    100032: Hueso_pierna_derecha
+    100034: Hueso_pierna_izquierda
+    400000: //RootNode
+    400002: Hueso_abdomen
+    400004: Hueso_Antebrazo_derecho
+    400006: Hueso_antebrazo_izquierdo
+    400008: Hueso_brazo_derecho
+    400010: Hueso_brazo_izquierdo
+    400012: Hueso_cabeza
+    400014: Hueso_cintura
+    400016: Hueso_cuello
+    400018: Hueso_hombro_derecho
+    400020: Hueso_hombro_izquierdo
+    400022: Hueso_mano_derecha
+    400024: Hueso_mano_izquierda
+    400026: Hueso_muslo_derecho
+    400028: Hueso_muslo_izquierdo
+    400030: Hueso_pecho
+    400032: Hueso_pierna_derecha
+    400034: Hueso_pierna_izquierda
+    7400000: idle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hueso_abdomen
+        weight: 1
+      - path: Hueso_Antebrazo_derecho
+        weight: 1
+      - path: Hueso_antebrazo_izquierdo
+        weight: 1
+      - path: Hueso_brazo_derecho
+        weight: 1
+      - path: Hueso_brazo_izquierdo
+        weight: 1
+      - path: Hueso_cabeza
+        weight: 1
+      - path: Hueso_cintura
+        weight: 1
+      - path: Hueso_cuello
+        weight: 1
+      - path: Hueso_hombro_derecho
+        weight: 1
+      - path: Hueso_hombro_izquierdo
+        weight: 1
+      - path: Hueso_mano_derecha
+        weight: 1
+      - path: Hueso_mano_izquierda
+        weight: 1
+      - path: Hueso_muslo_derecho
+        weight: 1
+      - path: Hueso_muslo_izquierdo
+        weight: 1
+      - path: Hueso_pecho
+        weight: 1
+      - path: Hueso_pierna_derecha
+        weight: 1
+      - path: Hueso_pierna_izquierda
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
