@@ -14,7 +14,7 @@ public class LuaInterfaceTest : MonoBehaviour
 
 	void Start()
 	{
-		guiText.text = "";
+		GetComponent<GUIText>().text = "";
 
 		output += "Global Variables\n";
 		output += "--------------------------------------------------------\n";

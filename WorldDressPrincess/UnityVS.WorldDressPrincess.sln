@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.WorldDressPrincess.CSharp.Plugins", "UnityVS.WorldDressPrincess.CSharp.Plugins.csproj", "{029BBC9D-7C5B-B255-BEC9-E867F7DA3C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.WorldDressPrincess.CSharp", "UnityVS.WorldDressPrincess.CSharp.csproj", "{38C71D8B-293C-FCAF-C9B8-0C10B200EEB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.WorldDressPrincess.CSharp.Editor", "UnityVS.WorldDressPrincess.CSharp.Editor.csproj", "{C6BAABE0-E8BB-854E-7245-192F16A27F1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{029BBC9D-7C5B-B255-BEC9-E867F7DA3C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029BBC9D-7C5B-B255-BEC9-E867F7DA3C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029BBC9D-7C5B-B255-BEC9-E867F7DA3C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029BBC9D-7C5B-B255-BEC9-E867F7DA3C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C71D8B-293C-FCAF-C9B8-0C10B200EEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C71D8B-293C-FCAF-C9B8-0C10B200EEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C71D8B-293C-FCAF-C9B8-0C10B200EEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C71D8B-293C-FCAF-C9B8-0C10B200EEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6BAABE0-E8BB-854E-7245-192F16A27F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6BAABE0-E8BB-854E-7245-192F16A27F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6BAABE0-E8BB-854E-7245-192F16A27F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6BAABE0-E8BB-854E-7245-192F16A27F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

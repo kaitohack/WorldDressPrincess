@@ -1,7 +1,9 @@
 fileFormatVersion: 2
-guid: 86669a1207c3b4e4cbda4403a8eb5ebd
+guid: 75dcc3f87a09a614da6be01df468e5b8
+timeCreated: 1429461427
+licenseType: Free
 ModelImporter:
-  serializedVersion: 16
+  serializedVersion: 18
   fileIDToRecycleName:
     100000: Collar_Africana
     100002: Collar_Espanola
@@ -104,6 +106,13 @@ ModelImporter:
     2300028: Pendientes_Espanola
     2300030: Piercing_Arabe
     2300032: Pulsera_India
+    2300034: Modelo_base
+    2300036: Vestido_africana
+    2300038: Vestido_americana
+    2300040: vestido_arabe
+    2300042: Vestido_china
+    2300044: Vestido_espanola
+    2300046: Vestido_India
     3300000: Collar_Africana
     3300002: Collar_Espanola
     3300004: Collar_India
@@ -121,6 +130,13 @@ ModelImporter:
     3300028: Pendientes_Espanola
     3300030: Piercing_Arabe
     3300032: Pulsera_India
+    3300034: Modelo_base
+    3300036: Vestido_africana
+    3300038: Vestido_americana
+    3300040: vestido_arabe
+    3300042: Vestido_china
+    3300044: Vestido_espanola
+    3300046: Vestido_India
     4300000: Modelo_base
     4300002: pelo_africana
     4300004: Pelo_americana
@@ -163,7 +179,7 @@ ModelImporter:
     bakeSimulation: 0
     optimizeGameObjects: 0
     motionNodeName: 
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
@@ -173,7 +189,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .0166785792
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -181,16 +197,18 @@ ModelImporter:
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 0
+    tangentImportMode: 1
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -205,6 +223,8 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
   additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
