@@ -2,6 +2,18 @@
 using UnityStandardAssets.ImageEffects;
 using System.Collections;
 
+[System.Serializable]
+public class Princess
+{
+    public Renderer[] Dresses;
+
+    public void Activate(bool bActivate)
+    {
+        foreach (Renderer dress in Dresses)
+            dress.gameObject.SetActive(bActivate);
+    }
+}
+
 public class GameModeMain : MonoBehaviour {
 
     public Transform ToonPivot;
@@ -12,10 +24,13 @@ public class GameModeMain : MonoBehaviour {
 
     public Animator [] CharacterAnim;
 
+    public Princess[] Princesses;
+
     private bool m_bLightning = true;
     private bool m_bZoomed = false;
 
     private int m_iDefaultAnim = 0;
+    private int m_iPrincess = 0;
 
 	// Use this for initialization
 	void Start () 
@@ -59,6 +74,16 @@ public class GameModeMain : MonoBehaviour {
         else
         {
             CameraPivot.transform.position = Vector3.Lerp(CameraPivot.transform.position, positionToReach, Time.deltaTime * 2f);
+        }
+
+        if(Input.GetKeyUp(KeyCode.S))
+        {
+            for (int i = 0; i < Princesses.Length;i++)
+            {
+                Princesses[i].Activate(i == m_iPrincess);
+            }
+
+            m_iPrincess = (m_iPrincess + 1) % Princesses.Length;
         }
 
         if (Input.GetKeyUp(KeyCode.Escape))
